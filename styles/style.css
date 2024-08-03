@@ -1,0 +1,44 @@
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/*shared styles*/
+.btn-primary{
+    background-color:#E6533C ;
+    border-radius: 46px;
+    border-color: ;
+    font-size: 18px;
+    font-weight:600;
+    padding:8px 20px;
+    color: white;
+}
+.common-color{
+    color: white;
+}
+
+/*nav styles*/
+nav{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    background-color:black ;
+    border-radius: 46px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 47px;
+    
+}
+.fitness-text{
+    font-size: 36px;
+    font-weight: 800;
+    color: #E6533C;
+    font-style: italic;
+}
