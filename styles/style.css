@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/miama');
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -6,6 +7,10 @@
 }
 
 /*shared styles*/
+body{
+    margin: 57px 150px 10px 150px;
+
+}
 .btn-primary{
     background-color:#E6533C ;
     border-radius: 46px;
@@ -17,6 +22,12 @@
 }
 .common-color{
     color: white;
+}
+.bg-color{
+    background-color: black;
+}
+.header-banner{
+    background-image: linear-gradient( to  rgba(17, 17, 17, 1),rgba(119, 119, 119, 0));
 }
 
 /*nav styles*/
@@ -33,12 +44,94 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    margin-right: 47px;
-    
+    margin-right: 47px;   
 }
 .fitness-text{
     font-size: 36px;
     font-weight: 800;
     color: #E6533C;
     font-style: italic;
+}
+/*banner related styles*/
+.shape{
+    font-family: 'Miama', sans-serif;                                               
+}
+.banner-container{
+    display: flex;
+}   
+.banner-title{
+    font-size: 78px;
+}
+.btn-banner-1{
+    
+}
+.btn-banner-2{
+
+}
+.btn-bg{
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-text-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+.btn-text-title-2{
+        font-size: 2.5rem;
+        font-weight: 500;
+        color: white;
+}
+.btn-text{
+    color: white;
+}
+/*habit change*/
+.change-habit-title{
+    font-size: 3rem;
+    text-align: center;
+}
+.change-habit-content{
+    text-align: center;
+}
+
+.habit-change-content{
+    display: flex;
+   
+    grid-template-columns: repeat(4,1fr);
+    list-style: none;
+}
+.habit-img{
+    border-radius: 50%;
+    align-items: center;
+}
+.habit-change-title{
+    text-align: center;
+    font-size: 1.125rem;
+}
+.habit-change-text{
+    text-align: center;
+    font-size: .875rem;
+}
+/* run extra*/
+.run {
+    display: flex;
+    list-style: none;
+
+}
+.run-title{
+    font-size: 3rem;
+    font-weight: 800;
+
+}
+.run-text{
+    font-size: .875rem;
+
+}
+.run-img{
+    width: 366px;
+    height: 312px;
+    object-position: ;
+    object-fit: none;
+    border-radius: 12px;
 }
