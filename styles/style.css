@@ -9,7 +9,6 @@
 /*shared styles*/
 body{
     margin: 57px 150px 10px 150px;
-
 }
 .btn-primary{
     background-color:#E6533C ;
@@ -27,7 +26,11 @@ body{
     background-color: black;
 }
 .header-banner{
-    background-image: linear-gradient( to  rgba(17, 17, 17, 1),rgba(119, 119, 119, 0));
+    background-image: linear-gradient(to center rgba(17, 17, 17, 1),rgba(119, 119, 119, 0));
+
+}
+.common-size{
+    font-size: .75rem;
 }
 
 /*nav styles*/
@@ -35,16 +38,24 @@ nav{
     display: flex;
    align-items: center;
    justify-content: space-between;
+   height: 56px;
+   
 }
 nav ul{
     display: flex;
     background-color:black ;
     border-radius: 46px;
     align-items: center;
+
+    
 }
 nav ul li{
     list-style: none;
     margin-right: 47px;   
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 12px;
 }
 .fitness-text{
     font-size: 36px;
@@ -52,9 +63,21 @@ nav ul li{
     color: #E6533C;
     font-style: italic;
 }
+.btn-nav{
+   
+    max-width: 464px;
+    max-height: 46px;
+    list-style: none;
+}
+    
+.btn-home{
+    width: 92px;
+    height: 38px;
+}
 /*banner related styles*/
 .shape{
-    font-family: 'Miama', sans-serif;                                               
+    font-family: 'Miama', sans-serif; 
+    font-size: 4.75rem;                                            
 }
 .banner-container{
     display: flex;
@@ -63,19 +86,47 @@ nav ul li{
     font-size: 78px;
 }
 .btn-banner-1{
-    
+    border-color: none;
+    font-weight:400;
 }
 .btn-banner-2{
+    background-color:black ;
+    border-radius: 46px;
+    border-color: white ;
+    font-size: 1.125rem;
+    font-weight:400;
+    padding:8px 20px;
+    color: white;
 
+}
+.btn-banner-3{
+    height: 96px;
+    width: 206px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    object-position:-63px,470px;
+
+}
+.btn-banner-4{
+    height: 96px;
+    width: 206px;
+
+
+}
+.btn-icon{
+    
+    font-size:48px;color:rgba(230, 83, 60, 1);
 }
 .btn-bg{
     border-radius: 12px;
-    background-color: rgba(255, 255, 255, 0.1);
+   background-color: rgba(48, 48, 48, 54%);
 }
 .btn-text-title{
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 400;
     color: white;
+   line-height: 1px;
 }
 
 .btn-text-title-2{
@@ -85,6 +136,7 @@ nav ul li{
 }
 .btn-text{
     color: white;
+    line-height: 5px;
 }
 /*habit change*/
 .change-habit-title{
@@ -134,4 +186,66 @@ nav ul li{
     object-position: ;
     object-fit: none;
     border-radius: 12px;
+}
+/*trainings*/
+.train-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.train-text{
+    font-size: .875rem;
+
+}
+.trainings{
+   
+}
+
+
+/* calculator */
+.calculator-title{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.calculator-text{
+    font-size: .875rem;
+}
+.calculator-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    list-style: none;
+    background-color: rgba(34, 34, 34, 1);
+    padding: 52px 189px 52px 189px;
+}
+.table-title{
+    font-size: 1.75rem;
+
+}
+.cal-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+table, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+  }
+.cal-form-title{
+    font-size:1.75rem ;  
+}
+.cal-form-text{
+    font-size: .75rem;
+}
+/* team */
+.team{
+    max-width: 1060px;
+}
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+/* footer */
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
