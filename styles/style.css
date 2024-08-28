@@ -81,6 +81,7 @@ nav ul li a{
 }
 .banner-container{
     display: flex;
+    gap: 150px;
 }   
 .banner-title{
     font-size: 78px;
@@ -105,14 +106,19 @@ nav ul li a{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    object-position:-63px,470px;
+    margin-left:-100px ;
+    margin-bottom: -400px;
+    margin-top: -130px;
+    border: 7px;
+    border-color: black;
 
 }
 .btn-banner-4{
     height: 96px;
     width: 206px;
-
-
+    margin-left:250px;
+    
+    
 }
 .btn-icon{
     
@@ -120,7 +126,7 @@ nav ul li a{
 }
 .btn-bg{
     border-radius: 12px;
-   background-color: rgba(48, 48, 48, 54%);
+   background-color: rgba(48, 48, 48, 60%);
 }
 .btn-text-title{
     font-size: 1.5rem;
@@ -138,6 +144,7 @@ nav ul li a{
     color: white;
     line-height: 5px;
 }
+
 /*habit change*/
 .change-habit-title{
     font-size: 3rem;
@@ -183,9 +190,12 @@ nav ul li a{
 .run-img{
     width: 366px;
     height: 312px;
-    object-position: ;
+    object-position:top center;
     object-fit: none;
+    border: 5px solid red;
     border-radius: 12px;
+    float: right;
+
 }
 /*trainings*/
 .train-title{
@@ -199,12 +209,83 @@ nav ul li a{
 .trainings{
    
 }
+.trainer-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1060px;
+}
+.trainer-img-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1060px;
+}
+#exe1{
+    max-width: 300px;
+    max-height: 200px;
+    gap:0px;
+    
+}
+#exe2{
+    max-width: 700px;
+    max-height: 200px;
 
+}
+#exe3{
+    max-width: 327px;
+    max-height: 270px;
+    padding: 0px;
+    
+}
+#exe4{
+   max-width: 410px;
+   max-height: 200px;
+   
+}
+#exe5{
+    max-width: 340px;
+    max-height: 200px;
+}
+#exe6{
+    max-width: 380px;
+    max-height: 200px;
+}
+.exe-1-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0px;
+    width: 92%;
+    height:100%;
+    background-color:rgba(6, 255, 210, 0.5);
+    display: flex;
+    /* justify-content :left;
+    align-items: bottom; */
+    color: black;
+}
+.exe-2-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0px;
+    /* width: 92%;
+    height:100%; */
+    background-color: rgba(255, 0, 0, 0.3);
+    display: flex;
+    /* justify-content :left;
+    align-items: bottom; */
+    color: black;
+    
+}
 
 /* calculator */
+.calculator{
+
+}
 .calculator-title{
     font-size: 3rem;
     font-weight: 800;
+    line-height: 3px;
+    
 }
 .calculator-text{
     font-size: .875rem;
@@ -230,10 +311,14 @@ table, th, td {
     border-collapse: collapse;
   }
 .cal-form-title{
-    font-size:1.75rem ;  
+    font-size:1.75rem ; 
+    
 }
 .cal-form-text{
     font-size: .75rem;
+}
+.calculator-text-container{
+    margin:88px 250px 88px 250px;
 }
 /* team */
 .team{
@@ -242,10 +327,55 @@ table, th, td {
 .team-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    max-width: 100%;
     
+    border: 5px solid red;
+    background-color: #E6533C;
 }
+.trainer-img{
+    position: relative;
+    border-radius: 18px;
+    max-width:326px ;
+    max-height: 272px;
+}
+.meet-our-team{
+    font-size:3rem ;
+    text-align: center;
+    line-height: 1px;
+}
+.meet-text{
+    text-align: center;
+    font-size: .875rem;
+}
+
 /* footer */
+.fitness-container{
+    padding-left: 5px;
+
+}
+
+footer{
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
 .footer-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    list-style: none;
+}
+
+.get-text{
+    text-decoration: none;
+    line-height: 35px;
+    font-size: 1.rem;
+}  
+.get-text li a{
+    text-decoration: none;
+    color: white;
+}
+.note{
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding-bottom: 10px;
 }
